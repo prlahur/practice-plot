@@ -86,3 +86,12 @@ List of all tables:
 - Table AII.7.5: CMIP5 (RCP) and CMIP3 (SRES A1B) global mean surface temperature change (°C) relative to 1986–2005 reference period
 - Table AII.7.6: Global mean surface temperature change (°C) relative to 1990 from the TAR
 - Table AII.7.7: Global mean sea level rise (m) with respect to 1986–2005 at 1 January on the years indicated
+
+## Method
+The data is in in Excel workbook, which contains multiple Excel worksheets. So this is what we do to extract the data:
+1. Go to the worksheet of interest.
+2. Copy the area (cells) that contain the data.
+3. Paste into a new Excel document.
+4. Save or export the new file as CSV (Comma-Separated Values) file.
+5. Read the file using Python code.
+6. Plot the data using Matplotlib.
